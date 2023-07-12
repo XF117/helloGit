@@ -6,6 +6,7 @@ public class gitDemo {
         System.out.println("Hello Git!Test!0");
         System.out.println("Hello Git!Test!1创建分支");
         System.out.println("Hello Git!Test!2主干添加");
-        System.out.println("Hello Git!Test!2分支添加");
+        System.out.println("Hello Git!Test!3分支添加");
+        System.out.println("Hello Git!Test!4在线更新");
     }
 }
