@@ -23,4 +23,9 @@
         <property name="password" value="${prop.password}"/>
     </bean>
 
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <!--注入DataSource(set方法注入)-->
+        <property name="dataSource" ref="dataSoursce"></property>
+    </bean>
+
 </beans>
