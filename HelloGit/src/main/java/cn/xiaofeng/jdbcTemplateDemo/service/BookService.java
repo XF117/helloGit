@@ -37,4 +37,8 @@ public class BookService {
     public List<Book> findAll(){
         return bookDao.findAllInfo();
     }
+
+    public void batchAdd(List<Object[]> batchArgs){
+        bookDao.batchAddBook(batchArgs);
+    }
 }

@@ -17,4 +17,6 @@ public interface BookDao {
     Book findInfo(String id);
 
     List<Book> findAllInfo();
+
+    void batchAddBook(List<Object[]> batchArgs);
 }
